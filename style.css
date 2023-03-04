@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+.firstLine {
+    height: 8px;
+    background-color: black;
+}
+
+.secondLine {
+    height: 2px;
+    background-color: black;
+}
+
+.row {
+    display: flex;
+}
+.left {
+    flex-basis: 20%;
+    font-weight: bold;
+    padding-left: 10%;
+}
+
+.right {
+    flex-basis: 80%;
+    list-style-type:square
+    
+}
